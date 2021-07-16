@@ -1,0 +1,59 @@
+.toiles{
+   .article{
+      margin-bottom: 50px;
+      &__image{
+         margin-top: 20px;
+         display: flex;
+         justify-content: center;
+         max-width: 420px;
+         max-height: 420px;
+         img{
+            box-shadow: 12px 12px 3px -1px rgb(155 155 155 / 32%);
+         }
+      }
+      &__titre{
+         margin-top: 20px;
+         display: flex;
+         justify-content: start;
+         margin-left: 120px;
+      }
+      &__description{
+         margin-top: 20px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      &__texte{
+         width: 80%;
+         text-align: justify;
+         margin-bottom: 30px;
+         h4{
+            font-weight: bold;
+            font-size: 1rem;
+         }
+         p{
+            font-size: 1rem;
+         }
+      }
+      &__table{
+         width: 80%;
+         table{
+            width: 100%;
+         }
+         thead{
+            text-align: center;
+         }
+         .colonne__gauche{
+            background-color: #77e6b1;
+            padding: 10px;
+            width: 50%;
+         }
+         .colonne__droite{
+            background-color: #fd9696;
+            padding: 10px;
+            width: 50%;
+         }
+
+      }
+   }
+}

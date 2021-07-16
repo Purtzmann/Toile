@@ -1,0 +1,105 @@
+.lien{
+   height: 200px;
+   overflow: hidden;
+   margin-bottom: 3rem;
+}     
+
+.information{
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   font-size: 1.2rem;
+   text-align: justify;
+   h1{
+      margin-bottom: 3rem;
+   }
+}
+
+.home{
+   margin-bottom: 3rem;
+   .article{
+      margin-bottom: 50px;
+      
+      &__image{
+         margin-top: 20px;
+         display: flex;
+         justify-content: center;
+         img{
+            box-shadow: -5px -5px 6px 5px rgba(155, 155, 155, 0.32);
+         }
+      }
+      &__titre{
+         margin-top: 20px;
+         display: flex;
+         justify-content: center;
+         font-size: 1.4rem;
+      }
+      &__image{
+         a{
+            display: flex;
+            justify-content: center;
+         }
+         img{
+            width: 80%;
+            height: 300px;
+            overflow: hidden;
+         }
+      }
+      &__description{
+         margin-top: 20px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+   
+      &__texte{
+         width: 80%;
+         text-align: justify;
+         margin-bottom: 30px;
+         p{
+            font-size: 1rem!important;
+         }
+      }
+      &__btn{
+         display: flex;
+         justify-content: center;
+      }
+      
+   }
+}
+
+.lienExterne{
+   display: flex;
+   flex-direction: column;
+   &__information{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 3rem;
+      font-size: 1.2rem;
+      h2{
+         margin-bottom: 3rem;
+      }
+      p{
+        text-align: center;
+        width: 72%;
+      }
+   }
+   &__peinture{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../../images/brushes-3129361_1920.jpg);
+      margin-bottom: 3rem;
+   }
+   &__accessoires{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../../images/painting-911804_1920.jpg);
+      margin-bottom: 3rem;
+   }
+   .btn{
+      margin: 100px
+   }
+}
+

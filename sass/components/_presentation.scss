@@ -1,0 +1,13 @@
+.presentation{
+   background-image: url(../../images/watercolour-4116932_1280.png);
+
+   height: 20rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   &__texte{
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+   }
+}
