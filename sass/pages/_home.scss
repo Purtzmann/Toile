@@ -4,25 +4,7 @@
    margin-bottom: 3rem;
 }     
 
-.information{
-   margin-top: 3rem;
-   margin-bottom: 3rem;
-   font-size: 1.2rem;
-   text-align: justify;
-   h1{
-      margin-bottom: 3rem;
-      @media only screen and (min-width: 200px) and (max-width: 640px){
-         font-size: 1.2rem;
-         margin-bottom: 2rem;
-         text-align: center;
-      }
-   }
-   p{
-      @media only screen and (min-width: 200px) and (max-width: 640px){
-         font-size: 0.8rem;
-      }
-   }
-}
+
 
 .home{
    margin-bottom: 3rem;

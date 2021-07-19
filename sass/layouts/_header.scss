@@ -11,14 +11,23 @@ header{
       align-items: center;
       p{
          font-size: 3rem;
+         @media only screen and (min-width: 200px) and (max-width: 640px){
+            font-size: 1.5rem;
+         }
       }
    }
    img{
       height: 75px;
+      @media only screen and (min-width: 200px) and (max-width: 640px){
+         height: 40px;
+      }
+   }
+   a{
+      @media only screen and (min-width: 200px) and (max-width: 640px){
+         font-size: .8rem;
+      }
    }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 640px){
 
-}
 
