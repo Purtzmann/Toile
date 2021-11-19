@@ -2,8 +2,7 @@
    height: 200px;
    overflow: hidden;
    margin-bottom: 3rem;
-}     
-
+}  
 
 .article__contenu{
    display: flex;
@@ -12,8 +11,12 @@
 
 .home{
    margin-bottom: 3rem;
+   display: flex;
+   justify-content: space-around;
+
    .article{
       margin-bottom: 50px;
+      width: 26rem;
       @media only screen and (min-width: 200px) and (max-width: 640px){
          padding: 0;
       }
