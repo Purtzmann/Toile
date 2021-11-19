@@ -9,6 +9,11 @@
    flex-direction: row;
 }
 
+
+.home{
+   margin-bottom: 50rem;
+}
+
 .home{
    margin-bottom: 3rem;
    display: flex;
@@ -33,16 +38,8 @@
          }
       }
       &__titre{
-         margin-top: 20px;
-         display: flex;
-         justify-content: center;
+         text-align: center;
          font-size: 1.4rem;
-         @media only screen and (min-width: 200px) and (max-width: 640px){
-            font-size: 1.2rem;
-         }
-         @media only screen and (min-width: 641px) and (max-width: 1024px){
-            font-size: 1.2rem;
-         }
       }
       &__image{
          a{
@@ -53,6 +50,15 @@
             width: 80%;
             height: 100%;
             overflow: hidden;
+         }
+      }
+
+      &__btn{
+         display: flex;
+         justify-content: center;
+         margin-bottom: 10px;
+         .btn{
+            width: 200px;
          }
       }
       &__description{
